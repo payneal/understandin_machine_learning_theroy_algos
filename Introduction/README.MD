@@ -53,7 +53,15 @@
         * the distinction between situations in which the learner has to respond online, throughout the learning process, and settings in which the learner has to engage the acquired expertise only after having a chance to process large amounts of data. For example, a stockbroker has to make daily decisions, based on the experience collected so far. He may become an expert over time, but might have made costly mistakes in the process. In contrast, in many data mining settings, the learner – the data miner – has large amounts of training data to play with before having to output conclusions.
 
 # relations to Other field
+* machine learning shares common threads with the
+mathematical fields of statistics, information theory, game theory, and optimization
+*  naturally a subfield of computer science
+* machine learning can be viewed as a branch of AI (Artificial Intelligence), since, after all, the ability to turn experience into expertise or to detect meaningful patterns in complex sensory data is a cornerstone of human (and animal) intelligence. However, one should note that, in contrast with traditional AI, machine learning is not trying to build automated imitation of intelligent behavior, but rather to use the strengths and special abilities of computers to complement human intelligence, often performing tasks that fall way beyond human capabilities
+* The component of experience, or training, in machine learning often refers to data that is randomly generated. The task of the learner is to process such randomly generated examples toward drawing conclusions that hold for the environment from which these examples are picked
+* machine learninging has a  close relationship with statistics. Indeed there is a lot in common between the two disciplines, in terms of both the goals and techniques used. There are, however, a few significant differences of emphasis
+    * if a doctor comes up with the hypothesis that there is a correlation between smoking and heart disease, it is the statistician’s role to view samples of patients and check the validity of that hypothesis (this is the common statistical task of hypothesis testing).
+    * machine learning aims to use the data gathered from samples of patients to come up with a description of the causes of heart disease.
+    * statistics is often interested in asymptotic behavior (like the convergence of sample-based statistical estimates as the sample sizes grow to infinity), the theory of machine learning focuses on finite sample bounds. Namely, given the size of available samples, machine learning theory aims to figure out the degree of accuracy that a learner can expect on the basis of such samples.
+    * While in statistics it is common to work under theassumption of certain presubscribed data models (such as assuming the normality of data-generating distributions, or the linearity of functional dependencies), in machine learning the emphasis is on working under a “distribution-free” setting, where the learner assumes as little as possible about the nature of the data distribution and allows the learning algorithm to figure out which models best approximate the data-generating process
 
-# how to read this book
-
-# Notation
+* Machine learning is about the execution of learning by computers; hence algorithmic issues are pivotal
